@@ -1,5 +1,5 @@
 <manifest
-    package="com.afollestad.cabinet"
+    package="top.itmp.cabinet"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
@@ -106,9 +106,12 @@
             android:authorities="${applicationId}.plugin_data_store"
             android:exported="false" />
 
-        <meta-data
+        <!--<meta-data
             android:name="com.crashlytics.ApiKey"
-            android:value="e9b2b6339277beb481a9c658b72cd0e4c714e0cb" />
+            android:value="e9b2b6339277beb481a9c658b72cd0e4c714e0cb" />-->
+      	<meta-data
+	    android:name="io.fabric.ApiKey"
+	    android:value="450926062ec7b34d130d36b5a51319d1427400cf"/>
 
     </application>
 
