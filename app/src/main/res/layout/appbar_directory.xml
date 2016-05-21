@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <com.afollestad.cabinet.views.BreadCrumbLayout
+        <top.itmp.cabinet.views.BreadCrumbLayout
             android:id="@+id/breadCrumbs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
