@@ -271,8 +271,6 @@ public abstract class ContentFragment extends LeakDetectFragment {
             }
         });
 
-        mFastScroller.attachRecyclerView(mRecyclerView);
-
         View.OnTouchListener onTouchListener = new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -349,6 +347,7 @@ public abstract class ContentFragment extends LeakDetectFragment {
             }
         });
         mRecyclerView.setAdapter(mAdapter);
+        mFastScroller.attachRecyclerView(mRecyclerView);
 
         mEmpty = view.findViewById(android.R.id.empty);
 
