@@ -7,17 +7,17 @@
         android:persistent="false"
         android:title="@string/base_theme" />
 
-    <com.afollestad.cabinet.views.ColorChooserPreference
+    <top.itmp.cabinet.views.ColorChooserPreference
         android:key="primary_color"
         android:summary="@string/primary_color_settingdesc"
         android:title="@string/primary_color" />
 
-    <com.afollestad.cabinet.views.ColorChooserPreference
+    <top.itmp.cabinet.views.ColorChooserPreference
         android:key="accent_color"
         android:summary="@string/accent_color_settingdesc"
         android:title="@string/accent_color" />
 
-    <com.afollestad.cabinet.views.ColorChooserPreference
+    <top.itmp.cabinet.views.ColorChooserPreference
         android:key="thumbnail_color"
         android:summary="@string/thumbnail_color_settingdesc"
         android:title="@string/thumbnail_color" />
