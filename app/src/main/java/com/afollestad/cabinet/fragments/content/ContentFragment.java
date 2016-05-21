@@ -271,7 +271,7 @@ public abstract class ContentFragment extends LeakDetectFragment {
             }
         });
 
-        mFastScroller.setRecyclerView(mRecyclerView);
+        mFastScroller.attachRecyclerView(mRecyclerView);
 
         View.OnTouchListener onTouchListener = new View.OnTouchListener() {
             @Override
